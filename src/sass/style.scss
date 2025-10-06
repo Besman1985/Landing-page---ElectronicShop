@@ -113,16 +113,19 @@ main {
     display: flex;
     flex-direction: column;
     background-color: white;
-    width: 1236px;
+    width: 1600px;
     background-image: url("../icon/HeroArea/bgImg.png");
     background-size: 611px;
     background-repeat: no-repeat;
     margin: 0 auto;
-    background-position: 584px 54px;
+    background-position: 800px 16px;
+    padding-top: 100px;
 
 
     .favorit-brands {
         margin-top: 131px;
+        width: 1236px;
+        margin: 0 auto;
 
 
         h1 {
@@ -221,11 +224,12 @@ main {
 
 
     .brands-icon {
+        margin: 0 auto;
         background-color: #FFFFFF;
         margin-top: 73px;
         display: flex;
         align-items: center;
-        width: 1140px;
+        width: 1236px;
         height: 237px;
         box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.13);
 
@@ -249,11 +253,12 @@ main {
 }
 
 .recent-product {
-    margin: 0 auto;
     margin-top: 132px;
     width: 1236px;
     display: flex;
-    gap: 37px;
+    margin: 0 auto;
+    margin-top: 110px;
+    justify-content:space-between;
 
 
 
@@ -328,7 +333,7 @@ main {
     margin: 0 auto;
     margin-top: 160px;
     display: flex;
-    gap: 30px;
+    justify-content:space-between;
 
     .offer-item {
         position: relative;
